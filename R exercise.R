@@ -31,7 +31,7 @@ f <- function(x){
 
 library(Ryacas)
 x <- Sym("x")
-Limit(f(x),x,0)
+Limit(f(x),x,4)
 
 #Differintation
 #No 1
